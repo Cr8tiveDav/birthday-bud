@@ -10,7 +10,7 @@ const List = () => {
       <main>
         <div className="container">
           <h4>
-            {totalBirthdays} {totalBirthdays > 0 ? 'birthdays' : 'birthday'}{' '}
+            {totalBirthdays} {totalBirthdays > 0 ? 'birthdayssss' : 'birthday'}{' '}
             today
           </h4>
           {list.map((item) => {
