@@ -9,10 +9,10 @@ const List = () => {
     <>
       <main>
         <div className="container">
-          <h3>
+          <h4>
             {totalBirthdays} {totalBirthdays > 0 ? 'birthdays' : 'birthday'}{' '}
             today
-          </h3>
+          </h4>
           {list.map((item) => {
             console.log(item);
             return (
